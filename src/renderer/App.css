@@ -1,0 +1,202 @@
+.Main {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.Main h1 {
+  color: #fff;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient-animation 5s ease infinite;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.Main input[type="file"] {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.image-container {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #eee;
+  border-radius: 5px;
+}
+
+.image-container h3 {
+  margin-top: 0;
+  color: #666;
+}
+
+textarea {
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  color: #333;
+  font-family: monospace;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+@keyframes backgroundAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  animation: backgroundAnimation 10s ease infinite;
+  background: linear-gradient(-45deg, #ff9a9e, #fad0c4, #fad0c4, #ff9a9e, #fecfef, #a1c4fd, #a1c4fd, #c2e9fb);
+  background-size: 200% 200%;
+  color: #333;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.image-container table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.image-container td {
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+.image-container img {
+  max-width: 100px; /* 画像のサイズを調整 */
+  height: auto;
+}
+.setting-btn {
+  background-color: #FF5733; /* 派手な背景色 */
+  color: #FFFFFF; /* 文字色 */
+  padding: 10px 20px; /* パディング */
+  border: none; /* ボーダーなし */
+  cursor: pointer; /* カーソルをポインタに */
+  font-size: 16px; /* フォントサイズ */
+  border-radius: 5px; /* 角丸 */
+  transition: all 0.3s ease; /* トランジション効果 */
+  display: inline-flex; /* アイコンとテキストを横並びに */
+  align-items: center; /* アイコンとテキストを垂直中央揃え */
+}
+
+.setting-btn:hover {
+  background-color: #C70039; /* ホバー時の背景色を変更 */
+  transform: scale(1.05); /* ホバー時に少し大きく */
+}
+
+.setting-btn i {
+  margin-right: 10px; /* アイコンとテキストの間隔 */
+}
+
+/* モーダル全体のスタイル */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+/* 閉じるボタンのスタイル */
+.setting-btn {
+  color: #fff;
+  background-color: #f44336;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 10px 20px;
+  float: right;
+  font-size: 16px;
+}
+
+.setting-btn:hover {
+  background-color: #d32f2f;
+}
+
+/* ラベルのスタイル */
+label {
+  display: block;
+  margin-bottom: 10px;
+  color: #333;
+  font-size: 18px;
+}
+
+/* 入力フィールドのスタイル */
+input[type="password"] {
+  width: calc(100% - 22px);
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* 保存ボタンのスタイル */
+button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.ReactModal__Content {
+  background :transparent !important;
+  border : none !important
+}
+
+ul.no-markers {
+  list-style-type: none; /* リストマーカーを非表示にする */
+  padding-left: 0; /* デフォルトのパディングも削除する */
+}
