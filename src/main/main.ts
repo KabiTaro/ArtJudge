@@ -105,7 +105,7 @@ const createWindow = async () => {
       case 'win32':
         backendPath = path.join(
           process.resourcesPath,
-          'resources/backend/backend.exe',
+          'backend/backend.exe',
         );
         break;
       case 'linux':

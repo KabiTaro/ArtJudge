@@ -23,7 +23,7 @@ zip内のArtJudge Setup 1.0.0.exeを実行してインストールする
 
 ### Linux
 ```
-$ curl -L https://github.com/KabiTaro/ArtJudge/releases/download/1.0.0/ArtJudge-1.0.0.AppImage -o ArtJudge-1.0.0.AppImage
+$ curl -L https://github.com/KabiTaro/ArtJudge/releases/download/1.0.0/ArtJudge-1.0.0.tar.gz -o ArtJudge-1.0.0.tar.gz
 $ tar -xzvf ArtJudge-1.0.0.tar.gz
 $ ./ArtJudge-1.0.0.AppImage
 ```
